@@ -8,17 +8,24 @@ class User(AbstractUser):
     following = models.ManyToManyField(
         'self', 
         through='Subscription', 
-        related_name='followers', 
+        related_name='following_lists', 
         symmetrical=False
     )
 
     def __str__(self):
         return self.username
 
-# Промежуточная модель для подписок (дает больше контроля в будущем)
 class Subscription(models.Model):
-    user = models.ForeignKey(User, on_local='user', related_name='rel_from_set', on_delete=models.CASCADE)
-    author = models.ForeignKey(User, on_local='author', related_name='rel_to_set', on_delete=models.CASCADE)
+    user = models.ForeignKey(
+        User, 
+        on_delete=models.CASCADE, 
+        related_name='subscriptions'
+    )
+    author = models.ForeignKey(
+        User, 
+        on_delete=models.CASCADE, 
+        related_name='subscribers'
+    )
     created_at = models.DateTimeField(auto_now_add=True)
 
     class Meta:

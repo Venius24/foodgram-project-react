@@ -10,8 +10,8 @@ class Recipe(models.Model):
     ingredients = models.TextField()
     time_to_cook = models.IntegerField()
     image = models.ImageField(upload_to='recipes/images/', blank=True, null=True)
-    tag = models.ForeignKey(Tag, on_delete=models.CASCADE)
-    ingredient = models.ManyToManyField(Ingredient)
+    tag = models.ForeignKey("Tag", on_delete=models.CASCADE)
+    ingredient = models.ManyToManyField("Ingredient")
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
@@ -28,8 +28,8 @@ class Tag(models.Model):
 
 class Ingredient(models.Model):
     name = models.CharField(max_length=200)
-    quantity = models.IntegerField()
-    measurement = models.CharField(max_length=200)
+    quantity = models.IntegerField(default=0)
+    measurement_unit = models.CharField(max_length=200)
 
     def __str__(self):
         return self.name
