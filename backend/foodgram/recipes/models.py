@@ -10,7 +10,7 @@ class Recipe(models.Model):
     ingredients = models.TextField()
     time_to_cook = models.IntegerField()
     image = models.ImageField(upload_to='recipes/images/', blank=True, null=True)
-    tag = models.ForeignKey("Tag", on_delete=models.CASCADE)
+    tag = models.ManyToManyField("Tag", related_name="recipes")
     ingredient = models.ManyToManyField("Ingredient")
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)

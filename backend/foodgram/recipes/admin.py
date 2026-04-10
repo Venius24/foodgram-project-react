@@ -26,9 +26,9 @@ class IngredientAdmin(ImportExportModelAdmin):
 
 @admin.register(Recipe)
 class RecipeAdmin(ImportExportModelAdmin):
-    list_display = ('title', 'author', 'tag', 'time_to_cook')
+    list_display = ('title', 'author', 'time_to_cook')
     search_fields = ('title', 'author__username')
-    list_filter = ('tag', 'author')
+    list_filter = ('author',)
     filter_horizontal = ('ingredient',)
 
 @admin.register(Tag)
