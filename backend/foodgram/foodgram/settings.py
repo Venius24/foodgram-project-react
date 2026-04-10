@@ -29,6 +29,8 @@ INSTALLED_APPS = [
     'import_export',
     'rest_framework',
     'rest_framework_simplejwt',
+    'rest_framework.authtoken',
+    'djoser',
     'django_filters',
     'users',
     'recipes',
@@ -123,7 +125,7 @@ AUTH_USER_MODEL = 'users.User'
 
 REST_FRAMEWORK = {
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.LimitOffsetPagination',
-    'PAGE_SIZE': 10,
+    'PAGE_SIZE': 6, # Фронт Foodgram обычно просит 6 рецептов на страницу
     'DEFAULT_FILTER_BACKENDS': [
         'django_filters.rest_framework.DjangoFilterBackend',
         'rest_framework.filters.SearchFilter',
@@ -133,6 +135,16 @@ REST_FRAMEWORK = {
         'rest_framework.permissions.IsAuthenticatedOrReadOnly',
     ],
     'DEFAULT_AUTHENTICATION_CLASSES': [
-        'rest_framework_simplejwt.authentication.JWTAuthentication',
+        # ЗАМЕНИ JWT на TokenAuthentication
+        'rest_framework.authentication.TokenAuthentication',
     ],
+}
+
+DJOSER = {
+    'LOGIN_FIELD': 'email', # Если фронт отправляет email в поле логина
+    'SERIALIZERS': {
+        'user_create': 'users.serializers.CustomUserCreateSerializer',
+        'user': 'users.serializers.CustomUserSerializer',
+        'current_user': 'users.serializers.CustomUserSerializer',
+    },
 }

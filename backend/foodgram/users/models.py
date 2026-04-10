@@ -3,6 +3,11 @@ from django.contrib.auth.models import AbstractUser
 
 # Create your models here.
 class User(AbstractUser):
+    email = models.EmailField(unique=True) # Обязательно unique=True
+    
+    USERNAME_FIELD = 'email' # Теперь Django будет считать почту логином
+    REQUIRED_FIELDS = ['username', 'first_name', 'last_name']   
+    
     bio = models.TextField(blank=True, null=True)
     avatar = models.ImageField(upload_to='users/avatars/', blank=True, null=True)
     following = models.ManyToManyField(

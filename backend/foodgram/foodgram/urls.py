@@ -27,5 +27,7 @@ router.register(r'ingredients', IngredientViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include(router.urls)),
+    path('api/', include(router.urls)), # Твои рецепты и ингредиенты
+    path('api/', include('djoser.urls')), # Эндпоинты для пользователей
+    path('api/auth/', include('djoser.urls.authtoken')), # Эндпоинты для токенов (логин/лог-аут)
 ]

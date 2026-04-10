@@ -24,3 +24,7 @@ class RecipeSerializer(serializers.ModelSerializer):
     class Meta:
         model = Recipe
         fields = ('id', 'tag', 'author', 'name', 'image', 'text', 'cooking_time', 'ingredients')
+
+    def get_tag(self, obj):
+        # Вместо obj.tag используй obj.tags.all()
+        return TagSerializer(obj.tag.all(), many=True).data
