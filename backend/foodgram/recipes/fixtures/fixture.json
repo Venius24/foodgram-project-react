@@ -3,84 +3,64 @@
         "model": "users.user",
         "pk": 1,
         "fields": {
-            "username": "chef_john",
-            "email": "john@example.com",
-            "password": "pbkdf2_sha256$260000$abcdefghijklmnop$hash_here_for_demo",
-            "first_name": "John",
-            "last_name": "Smith",
-            "bio": "Passionate home cook and food enthusiast",
-            "avatar": "users/avatars/john.jpg",
+            "password": "pbkdf2_sha256$720000$abcdefghijklmnop$qrstuvwxyzabcdefghijklmnopqrst=",
+            "last_login": "2024-04-12T10:30:00Z",
+            "is_superuser": false,
+            "username": "john_doe",
             "is_staff": false,
             "is_active": true,
-            "is_superuser": false
+            "date_joined": "2024-01-15T08:00:00Z",
+            "email": "john.doe@example.com",
+            "first_name": "John",
+            "last_name": "Doe"
         }
     },
     {
         "model": "users.user",
         "pk": 2,
         "fields": {
-            "username": "maria_kitchen",
-            "email": "maria@example.com",
-            "password": "pbkdf2_sha256$260000$abcdefghijklmnop$hash_here_for_demo",
-            "first_name": "Maria",
-            "last_name": "Garcia",
-            "bio": "Professional chef with 10 years of experience",
-            "avatar": "users/avatars/maria.jpg",
+            "password": "pbkdf2_sha256$720000$abcdefghijklmnop$qrstuvwxyzabcdefghijklmnopqrst=",
+            "last_login": "2024-04-11T15:45:00Z",
+            "is_superuser": false,
+            "username": "jane_smith",
             "is_staff": false,
             "is_active": true,
-            "is_superuser": false
+            "date_joined": "2024-02-20T09:30:00Z",
+            "email": "jane.smith@example.com",
+            "first_name": "Jane",
+            "last_name": "Smith"
         }
     },
     {
         "model": "users.user",
         "pk": 3,
         "fields": {
-            "username": "alex_foodie",
-            "email": "alex@example.com",
-            "password": "pbkdf2_sha256$260000$abcdefghijklmnop$hash_here_for_demo",
-            "first_name": "Alex",
-            "last_name": "Johnson",
-            "bio": "Love trying new recipes from around the world",
-            "avatar": "users/avatars/alex.jpg",
+            "password": "pbkdf2_sha256$720000$abcdefghijklmnop$qrstuvwxyzabcdefghijklmnopqrst=",
+            "last_login": "2024-04-10T12:00:00Z",
+            "is_superuser": false,
+            "username": "chef_ivan",
             "is_staff": false,
             "is_active": true,
-            "is_superuser": false
+            "date_joined": "2024-01-01T00:00:00Z",
+            "email": "ivan.chef@example.com",
+            "first_name": "Ivan",
+            "last_name": "Petrov"
         }
     },
     {
-        "model": "recipes.tag",
+        "model": "users.follow",
         "pk": 1,
         "fields": {
-            "name": "Быстрые рецепты",
-            "color": "#FF5733",
-            "slug": "quick-recipes"
+            "user": 1,
+            "following": 3
         }
     },
     {
-        "model": "recipes.tag",
+        "model": "users.follow",
         "pk": 2,
         "fields": {
-            "name": "Вегетарианское",
-            "color": "#33FF57",
-            "slug": "vegetarian"
-        }
-    },
-    {
-        "model": "recipes.tag",
-        "pk": 3,
-        "fields": {
-            "name": "Десерты",
-            "color": "#FF33F1",
-            "slug": "desserts"
-        }
-    },
-    {
-        "model": "recipes.tag",
-        "pk": 4,
-        "fields": {
-            "name": "Здоровое питание",
-            "color": "#33D4FF",
-            "slug": "healthy"
+            "user": 2,
+            "following": 3
         }
     },
     {
@@ -88,265 +68,279 @@
         "pk": 1,
         "fields": {
             "name": "Помидоры",
-            "measurement_unit": "г",
-            "quantity": 400
+            "measurement_unit": "г"
         }
     },
     {
         "model": "recipes.ingredient",
         "pk": 2,
         "fields": {
-            "name": "Чеснок",
-            "measurement_unit": "зубчик",
-            "quantity": 3
+            "name": "Огурцы",
+            "measurement_unit": "шт"
         }
     },
     {
         "model": "recipes.ingredient",
         "pk": 3,
         "fields": {
-            "name": "Оливковое масло",
-            "measurement_unit": "мл",
-            "quantity": 50
+            "name": "Масло оливковое",
+            "measurement_unit": "мл"
         }
     },
     {
         "model": "recipes.ingredient",
         "pk": 4,
         "fields": {
-            "name": "Базилик",
-            "measurement_unit": "г",
-            "quantity": 10
+            "name": "Мука пшеничная",
+            "measurement_unit": "г"
         }
     },
     {
         "model": "recipes.ingredient",
         "pk": 5,
         "fields": {
-            "name": "Мука",
-            "measurement_unit": "г",
-            "quantity": 200
+            "name": "Яйца",
+            "measurement_unit": "шт"
         }
     },
     {
         "model": "recipes.ingredient",
         "pk": 6,
         "fields": {
-            "name": "Яйца",
-            "measurement_unit": "шт",
-            "quantity": 3
+            "name": "Сахар",
+            "measurement_unit": "г"
         }
     },
     {
         "model": "recipes.ingredient",
         "pk": 7,
         "fields": {
-            "name": "Сахар",
-            "measurement_unit": "г",
-            "quantity": 150
+            "name": "Соль",
+            "measurement_unit": "г"
         }
     },
     {
         "model": "recipes.ingredient",
         "pk": 8,
         "fields": {
-            "name": "Масло сливочное",
-            "measurement_unit": "г",
-            "quantity": 100
+            "name": "Чёрный перец",
+            "measurement_unit": "г"
         }
     },
     {
-        "model": "recipes.ingredient",
-        "pk": 9,
+        "model": "recipes.tag",
+        "pk": 1,
         "fields": {
-            "name": "Молоко",
-            "measurement_unit": "мл",
-            "quantity": 200
+            "name": "Завтрак",
+            "color": "#FF6B6B",
+            "slug": "zavtrak"
         }
     },
     {
-        "model": "recipes.ingredient",
-        "pk": 10,
+        "model": "recipes.tag",
+        "pk": 2,
         "fields": {
-            "name": "Соль",
-            "measurement_unit": "г",
-            "quantity": 5
+            "name": "Обед",
+            "color": "#4ECDC4",
+            "slug": "obed"
+        }
+    },
+    {
+        "model": "recipes.tag",
+        "pk": 3,
+        "fields": {
+            "name": "Ужин",
+            "color": "#45B7D1",
+            "slug": "uzhin"
+        }
+    },
+    {
+        "model": "recipes.tag",
+        "pk": 4,
+        "fields": {
+            "name": "Десерт",
+            "color": "#FFA07A",
+            "slug": "desert"
         }
     },
     {
         "model": "recipes.recipe",
         "pk": 1,
-        "fields": {
-            "author": 1,
-            "title": "Паста с помидорами",
-            "description": "Простой и вкусный итальянский рецепт пасты с свежими помидорами и базиликом",
-            "ingredients": "300г пасты, 400г помидоров, 3 зубчика чеснока, 50мл оливкового масла, свежий базилик, соль, перец",
-            "time_to_cook": 20,
-            "image": "recipes/images/pasta_tomato.jpg",
-            "tag": 1,
-            "created_at": "2024-01-15T10:30:00Z",
-            "updated_at": "2024-01-15T10:30:00Z"
-        }
-    },
-    {
-        "model": "recipes.recipe",
-        "pk": 2,
-        "fields": {
-            "author": 2,
-            "title": "Овощное рагу",
-            "description": "Питательное и вкусное овощное рагу с баклажанами, помидорами и цукини",
-            "ingredients": "2 баклажана, 3 цукини, 4 помидора, 2 болгарских перца, 100мл оливкового масла, чеснок, специи",
-            "time_to_cook": 45,
-            "image": "recipes/images/vegetable_stew.jpg",
-            "tag": 2,
-            "created_at": "2024-01-16T14:20:00Z",
-            "updated_at": "2024-01-16T14:20:00Z"
-        }
-    },
-    {
-        "model": "recipes.recipe",
-        "pk": 3,
-        "fields": {
-            "author": 1,
-            "title": "Шоколадный торт",
-            "description": "Нежный шоколадный торт с глазурью - идеальный выбор для праздника",
-            "ingredients": "200г муки, 3 яйца, 150г сахара, 100г масла сливочного, 50г какао, 200мл молока, разрыхлитель, соль",
-            "time_to_cook": 60,
-            "image": "recipes/images/chocolate_cake.jpg",
-            "tag": 3,
-            "created_at": "2024-01-17T09:00:00Z",
-            "updated_at": "2024-01-17T09:00:00Z"
-        }
-    },
-    {
-        "model": "recipes.recipe",
-        "pk": 4,
         "fields": {
             "author": 3,
-            "title": "Смузи боул",
-            "description": "Здоровый и энергичный смузи боул с ягодами и гранолой",
-            "ingredients": "200мл йогурта, 150г замороженных ягод, 1 банан, 50мл молока, 50г гранолы, мед по вкусу",
-            "time_to_cook": 10,
-            "image": "recipes/images/smoothie_bowl.jpg",
-            "tag": 4,
-            "created_at": "2024-01-18T08:30:00Z",
-            "updated_at": "2024-01-18T08:30:00Z"
+            "name": "Салат из помидоров и огурцов",
+            "image": "recipes/salad_1.jpg",
+            "text": "Простой и освежающий салат из свежих помидоров и огурцов с оливковым маслом. Идеален для летнего стола.",
+            "cooking_time": 10,
+            "pub_date": "2024-03-15T10:00:00Z"
         }
     },
     {
-        "model": "recipes.recipe_ingredient",
+        "model": "recipes.recipe",
+        "pk": 2,
+        "fields": {
+            "author": 3,
+            "name": "Омлет из трёх яиц",
+            "image": "recipes/omlet_1.jpg",
+            "text": "Пушистый омлет на завтрак. Готовится за пять минут на горячей сковороде с маслом.",
+            "cooking_time": 5,
+            "pub_date": "2024-03-20T08:30:00Z"
+        }
+    },
+    {
+        "model": "recipes.recipe",
+        "pk": 3,
+        "fields": {
+            "author": 1,
+            "name": "Классическое печенье",
+            "image": "recipes/cookies_1.jpg",
+            "text": "Вкусное печенье из простых ингредиентов. Идеально подходит для чаепития с семьей.",
+            "cooking_time": 25,
+            "pub_date": "2024-04-01T14:20:00Z"
+        }
+    },
+    {
+        "model": "recipes.recipetag",
         "pk": 1,
         "fields": {
             "recipe": 1,
-            "ingredient": 1
+            "tag": 2
         }
     },
     {
-        "model": "recipes.recipe_ingredient",
+        "model": "recipes.recipetag",
+        "pk": 2,
+        "fields": {
+            "recipe": 2,
+            "tag": 1
+        }
+    },
+    {
+        "model": "recipes.recipetag",
+        "pk": 3,
+        "fields": {
+            "recipe": 3,
+            "tag": 4
+        }
+    },
+    {
+        "model": "recipes.recipeingredient",
+        "pk": 1,
+        "fields": {
+            "recipe": 1,
+            "ingredient": 1,
+            "amount": 300
+        }
+    },
+    {
+        "model": "recipes.recipeingredient",
         "pk": 2,
         "fields": {
             "recipe": 1,
-            "ingredient": 2
+            "ingredient": 2,
+            "amount": 2
         }
     },
     {
-        "model": "recipes.recipe_ingredient",
+        "model": "recipes.recipeingredient",
         "pk": 3,
         "fields": {
             "recipe": 1,
-            "ingredient": 3
+            "ingredient": 3,
+            "amount": 50
         }
     },
     {
-        "model": "recipes.recipe_ingredient",
+        "model": "recipes.recipeingredient",
         "pk": 4,
         "fields": {
-            "recipe": 1,
-            "ingredient": 4
+            "recipe": 2,
+            "ingredient": 5,
+            "amount": 3
         }
     },
     {
-        "model": "recipes.recipe_ingredient",
+        "model": "recipes.recipeingredient",
         "pk": 5,
         "fields": {
             "recipe": 2,
-            "ingredient": 1
+            "ingredient": 3,
+            "amount": 20
         }
     },
     {
-        "model": "recipes.recipe_ingredient",
+        "model": "recipes.recipeingredient",
         "pk": 6,
         "fields": {
             "recipe": 3,
-            "ingredient": 5
+            "ingredient": 4,
+            "amount": 250
         }
     },
     {
-        "model": "recipes.recipe_ingredient",
+        "model": "recipes.recipeingredient",
         "pk": 7,
         "fields": {
             "recipe": 3,
-            "ingredient": 6
+            "ingredient": 5,
+            "amount": 2
         }
     },
     {
-        "model": "recipes.recipe_ingredient",
+        "model": "recipes.recipeingredient",
         "pk": 8,
         "fields": {
             "recipe": 3,
-            "ingredient": 7
+            "ingredient": 6,
+            "amount": 150
         }
     },
     {
-        "model": "recipes.recipe_ingredient",
-        "pk": 9,
-        "fields": {
-            "recipe": 3,
-            "ingredient": 8
-        }
-    },
-    {
-        "model": "recipes.recipe_ingredient",
-        "pk": 10,
-        "fields": {
-            "recipe": 4,
-            "ingredient": 9
-        }
-    },
-    {
-        "model": "users.subscription",
+        "model": "recipes.favorite",
         "pk": 1,
         "fields": {
             "user": 1,
-            "author": 2,
-            "created_at": "2024-01-15T12:00:00Z"
+            "recipe": 1
         }
     },
     {
-        "model": "users.subscription",
+        "model": "recipes.favorite",
         "pk": 2,
         "fields": {
             "user": 1,
-            "author": 3,
-            "created_at": "2024-01-16T15:30:00Z"
+            "recipe": 3
         }
     },
     {
-        "model": "users.subscription",
+        "model": "recipes.favorite",
         "pk": 3,
         "fields": {
             "user": 2,
-            "author": 1,
-            "created_at": "2024-01-17T11:00:00Z"
+            "recipe": 2
         }
     },
     {
-        "model": "users.subscription",
-        "pk": 4,
+        "model": "recipes.cart",
+        "pk": 1,
         "fields": {
-            "user": 3,
-            "author": 2,
-            "created_at": "2024-01-18T09:45:00Z"
+            "user": 1,
+            "recipe": 2
+        }
+    },
+    {
+        "model": "recipes.cart",
+        "pk": 2,
+        "fields": {
+            "user": 2,
+            "recipe": 1
+        }
+    },
+    {
+        "model": "recipes.cart",
+        "pk": 3,
+        "fields": {
+            "user": 2,
+            "recipe": 3
         }
     }
 ]

@@ -1,15 +1,13 @@
 from django.contrib import admin
-from .models import User, Subscription
+from .models import User, Follow  # Заменили Subscription на Follow
 
 @admin.register(User)
 class UserAdmin(admin.ModelAdmin):
-    list_display = ('username', 'email', 'first_name', 'last_name')
+    list_display = ('id', 'username', 'email', 'first_name', 'last_name')
     search_fields = ('username', 'email')
-    list_filter = ('username',)
+    list_filter = ('username', 'email')
 
-@admin.register(Subscription)
-class SubscriptionAdmin(admin.ModelAdmin):
-    list_display = ('user', 'author', 'created_at')
-    search_fields = ('user__username', 'author__username')
-    list_filter = ('created_at',)
-
+@admin.register(Follow)
+class FollowAdmin(admin.ModelAdmin):
+    list_display = ('id', 'user', 'following')
+    search_fields = ('user__username', 'following__username')

@@ -1,39 +1,38 @@
-from django.db import models
 from django.contrib.auth.models import AbstractUser
+from django.db import models
 
-# Create your models here.
+
 class User(AbstractUser):
-    email = models.EmailField(unique=True) # Обязательно unique=True
-    
-    USERNAME_FIELD = 'email' # Теперь Django будет считать почту логином
-    REQUIRED_FIELDS = ['username', 'first_name', 'last_name']   
-    
-    bio = models.TextField(blank=True, null=True)
-    avatar = models.ImageField(upload_to='users/avatars/', blank=True, null=True)
-    following = models.ManyToManyField(
-        'self', 
-        through='Subscription', 
-        related_name='following_lists', 
-        symmetrical=False
-    )
+    email = models.EmailField(
+        'Электронная почта', unique=True, blank=False, max_length=254)
+    first_name = models.CharField('Имя', blank=False, max_length=150)
+    last_name = models.CharField('Фамилия', blank=False, max_length=150)
 
-    def __str__(self):
-        return self.username
+    def __str__(self) -> str:
+        return f'{self.first_name} {self.last_name}'
 
-class Subscription(models.Model):
+
+class Follow(models.Model):
     user = models.ForeignKey(
-        User, 
-        on_delete=models.CASCADE, 
-        related_name='subscriptions'
+        User,
+        on_delete=models.CASCADE,
+        related_name='follower',
     )
-    author = models.ForeignKey(
-        User, 
-        on_delete=models.CASCADE, 
-        related_name='subscribers'
+    following = models.ForeignKey(
+        User,
+        on_delete=models.CASCADE,
+        related_name='following'
     )
-    created_at = models.DateTimeField(auto_now_add=True)
 
     class Meta:
+        verbose_name = 'Подписка'
+        verbose_name_plural = 'Подписки'
         constraints = [
-            models.UniqueConstraint(fields=['user', 'author'], name='unique_relationships')
+            models.UniqueConstraint(
+                fields=['user', 'following'],
+                name='unique_user_follow'
+            ),
         ]
+
+    def __str__(self) -> str:
+        return f'{self.user} {self.following}'
