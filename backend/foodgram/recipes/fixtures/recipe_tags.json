@@ -1,0 +1,90 @@
+[
+    {
+        "model": "recipes.recipetag",
+        "pk": 1,
+        "fields": {
+            "recipe": 1,
+            "tag": 1
+        }
+    },
+    {
+        "model": "recipes.recipetag",
+        "pk": 2,
+        "fields": {
+            "recipe": 1,
+            "tag": 3
+        }
+    },
+    {
+        "model": "recipes.recipetag",
+        "pk": 3,
+        "fields": {
+            "recipe": 2,
+            "tag": 1
+        }
+    },
+    {
+        "model": "recipes.recipetag",
+        "pk": 4,
+        "fields": {
+            "recipe": 2,
+            "tag": 2
+        }
+    },
+    {
+        "model": "recipes.recipetag",
+        "pk": 5,
+        "fields": {
+            "recipe": 3,
+            "tag": 4
+        }
+    },
+    {
+        "model": "recipes.recipetag",
+        "pk": 6,
+        "fields": {
+            "recipe": 3,
+            "tag": 2
+        }
+    },
+    {
+        "model": "recipes.recipetag",
+        "pk": 7,
+        "fields": {
+            "recipe": 4,
+            "tag": 1
+        }
+    },
+    {
+        "model": "recipes.recipetag",
+        "pk": 8,
+        "fields": {
+            "recipe": 4,
+            "tag": 2
+        }
+    },
+    {
+        "model": "recipes.recipetag",
+        "pk": 9,
+        "fields": {
+            "recipe": 5,
+            "tag": 3
+        }
+    },
+    {
+        "model": "recipes.recipetag",
+        "pk": 10,
+        "fields": {
+            "recipe": 6,
+            "tag": 4
+        }
+    },
+    {
+        "model": "recipes.recipetag",
+        "pk": 11,
+        "fields": {
+            "recipe": 6,
+            "tag": 2
+        }
+    }
+]
