@@ -12,6 +12,7 @@ from .pagination import DEFAULT_PAGE_SIZE
 
 class CustomUserSerializer(UserSerializer):
     is_subscribed = serializers.SerializerMethodField(read_only=True)
+    is_moderator = serializers.BooleanField(read_only=True, default=False)
 
     class Meta:
         model = User
@@ -22,11 +23,13 @@ class CustomUserSerializer(UserSerializer):
             'first_name',
             'last_name',
             'is_subscribed',
+            'is_moderator',
             'password'
         )
         extra_kwargs = {
             'password': {'write_only': True},
-            'is_subscribed': {'read_only': True}
+            'is_subscribed': {'read_only': True},
+            'is_moderator': {'read_only': True}
         }
 
     def get_is_subscribed(self, obj):
@@ -59,6 +62,7 @@ class SubscriptionSerializer(CustomUserSerializer):
             'first_name',
             'last_name',
             'is_subscribed',
+            'is_moderator',
             'recipes',
             'recipes_count'
         )

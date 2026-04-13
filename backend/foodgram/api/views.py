@@ -9,7 +9,7 @@ from rest_framework import status, viewsets
 from rest_framework.decorators import action
 from rest_framework.permissions import (SAFE_METHODS, IsAuthenticated, 
                                         IsAuthenticatedOrReadOnly, AllowAny)
-from .permissions import AuthorOrReadOnly
+from .permissions import IsAuthorModeratorOrReadOnly
 from rest_framework.response import Response
 from rest_framework.serializers import ValidationError
 from users.models import Follow, User
@@ -76,7 +76,7 @@ class CustomUserViewSet(UserViewSet):
 class TagViewSet(viewsets.ReadOnlyModelViewSet):
     queryset = Tag.objects.all()
     serializer_class = serializers.TagSerializer
-    permission_classes = [AuthorOrReadOnly]
+    permission_classes = [IsAuthorModeratorOrReadOnly,]
 
 
 class IngredientViewSet(viewsets.ReadOnlyModelViewSet):
@@ -84,7 +84,7 @@ class IngredientViewSet(viewsets.ReadOnlyModelViewSet):
     serializer_class = serializers.IngredientSerializer
     filter_backends = (DjangoFilterBackend,)
     filterset_class = filters.IngredientFilter
-    permission_classes = [AuthorOrReadOnly]
+    permission_classes = [IsAuthorModeratorOrReadOnly,]
 
 
 class RecipeViewSet(viewsets.ModelViewSet):
@@ -92,7 +92,7 @@ class RecipeViewSet(viewsets.ModelViewSet):
     queryset = Recipe.objects.all()
     serializer_class = serializers.RecipeSerializer
     pagination_class = CustomPageNumberPagination
-    permission_classes = (permissions.AuthorOrReadOnly,)
+    permission_classes = (IsAuthorModeratorOrReadOnly,)
     filter_backends = (DjangoFilterBackend,)
     filterset_class = filters.RecipeFilter
 

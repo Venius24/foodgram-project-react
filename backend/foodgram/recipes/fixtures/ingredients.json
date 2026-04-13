@@ -158,5 +158,1445 @@
             "name": "Макароны",
             "measurement_unit": "г"
         }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 21,
+        "fields": {
+            "name": "Говяжий фарш",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 22,
+        "fields": {
+            "name": "Свинина",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 23,
+        "fields": {
+            "name": "Рыба филе",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 24,
+        "fields": {
+            "name": "Морепродукты",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 25,
+        "fields": {
+            "name": "Креветки",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 26,
+        "fields": {
+            "name": "Кальмар",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 27,
+        "fields": {
+            "name": "Мидии",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 28,
+        "fields": {
+            "name": "Колбаса",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 29,
+        "fields": {
+            "name": "Бекон",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 30,
+        "fields": {
+            "name": "Ветчина",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 31,
+        "fields": {
+            "name": "Сыр Пармезан",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 32,
+        "fields": {
+            "name": "Сыр Моцарелла",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 33,
+        "fields": {
+            "name": "Сыр Фета",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 34,
+        "fields": {
+            "name": "Сыр Горгонзола",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 35,
+        "fields": {
+            "name": "Творог",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 36,
+        "fields": {
+            "name": "Йогурт",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 37,
+        "fields": {
+            "name": "Сливки",
+            "measurement_unit": "мл"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 38,
+        "fields": {
+            "name": "Кефир",
+            "measurement_unit": "мл"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 39,
+        "fields": {
+            "name": "Морковь",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 40,
+        "fields": {
+            "name": "Свёкла",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 41,
+        "fields": {
+            "name": "Картофель",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 42,
+        "fields": {
+            "name": "Капуста белокочанная",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 43,
+        "fields": {
+            "name": "Капуста цветная",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 44,
+        "fields": {
+            "name": "Брокколи",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 45,
+        "fields": {
+            "name": "Спаржа",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 46,
+        "fields": {
+            "name": "Сладкий перец",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 47,
+        "fields": {
+            "name": "Острый перец",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 48,
+        "fields": {
+            "name": "Шпинат",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 49,
+        "fields": {
+            "name": "Зелень петрушки",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 50,
+        "fields": {
+            "name": "Укроп",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 51,
+        "fields": {
+            "name": "Кинза",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 52,
+        "fields": {
+            "name": "Базилик",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 53,
+        "fields": {
+            "name": "Мята",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 54,
+        "fields": {
+            "name": "Орегано",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 55,
+        "fields": {
+            "name": "Тимьян",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 56,
+        "fields": {
+            "name": "Розмарин",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 57,
+        "fields": {
+            "name": "Гвоздика",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 58,
+        "fields": {
+            "name": "Корица",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 59,
+        "fields": {
+            "name": "Мускатный орех",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 60,
+        "fields": {
+            "name": "Кумин",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 61,
+        "fields": {
+            "name": "Паприка",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 62,
+        "fields": {
+            "name": "Куркума",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 63,
+        "fields": {
+            "name": "Имбирь",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 64,
+        "fields": {
+            "name": "Горчица",
+            "measurement_unit": "мл"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 65,
+        "fields": {
+            "name": "Майонез",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 66,
+        "fields": {
+            "name": "Кетчуп",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 67,
+        "fields": {
+            "name": "Соевый соус",
+            "measurement_unit": "мл"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 68,
+        "fields": {
+            "name": "Уксус яблочный",
+            "measurement_unit": "мл"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 69,
+        "fields": {
+            "name": "Уксус винный",
+            "measurement_unit": "мл"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 70,
+        "fields": {
+            "name": "Вустерский соус",
+            "measurement_unit": "мл"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 71,
+        "fields": {
+            "name": "Хрен",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 72,
+        "fields": {
+            "name": "Ваниль",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 73,
+        "fields": {
+            "name": "Апельсин",
+            "measurement_unit": "шт"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 74,
+        "fields": {
+            "name": "Лимон",
+            "measurement_unit": "шт"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 75,
+        "fields": {
+            "name": "Лайм",
+            "measurement_unit": "шт"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 76,
+        "fields": {
+            "name": "Клубника",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 77,
+        "fields": {
+            "name": "Черника",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 78,
+        "fields": {
+            "name": "Малина",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 79,
+        "fields": {
+            "name": "Вишня",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 80,
+        "fields": {
+            "name": "Яблоко",
+            "measurement_unit": "шт"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 81,
+        "fields": {
+            "name": "Груша",
+            "measurement_unit": "шт"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 82,
+        "fields": {
+            "name": "Банан",
+            "measurement_unit": "шт"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 83,
+        "fields": {
+            "name": "Ананас",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 84,
+        "fields": {
+            "name": "Манго",
+            "measurement_unit": "шт"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 85,
+        "fields": {
+            "name": "Киви",
+            "measurement_unit": "шт"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 86,
+        "fields": {
+            "name": "Гранат",
+            "measurement_unit": "шт"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 87,
+        "fields": {
+            "name": "Авокадо",
+            "measurement_unit": "шт"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 88,
+        "fields": {
+            "name": "Кокос",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 89,
+        "fields": {
+            "name": "Миндаль",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 90,
+        "fields": {
+            "name": "Арахис",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 91,
+        "fields": {
+            "name": "Грецкий орех",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 92,
+        "fields": {
+            "name": "Кешью",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 93,
+        "fields": {
+            "name": "Фисташки",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 94,
+        "fields": {
+            "name": "Кедровый орех",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 95,
+        "fields": {
+            "name": "Семена подсолнечника",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 96,
+        "fields": {
+            "name": "Семена тыквы",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 97,
+        "fields": {
+            "name": "Семена кунжута",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 98,
+        "fields": {
+            "name": "Семена льна",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 99,
+        "fields": {
+            "name": "Мёд",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 100,
+        "fields": {
+            "name": "Варенье",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 101,
+        "fields": {
+            "name": "Хлеб белый",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 102,
+        "fields": {
+            "name": "Хлеб чёрный",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 103,
+        "fields": {
+            "name": "Рис",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 104,
+        "fields": {
+            "name": "Гречка",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 105,
+        "fields": {
+            "name": "Овсяные хлопья",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 106,
+        "fields": {
+            "name": "Пшено",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 107,
+        "fields": {
+            "name": "Ячмень",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 108,
+        "fields": {
+            "name": "Чечевица",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 109,
+        "fields": {
+            "name": "Нут",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 110,
+        "fields": {
+            "name": "Фасоль",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 111,
+        "fields": {
+            "name": "Горох",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 112,
+        "fields": {
+            "name": "Кукуруза",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 113,
+        "fields": {
+            "name": "Какао-масло",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 114,
+        "fields": {
+            "name": "Шоколад чёрный",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 115,
+        "fields": {
+            "name": "Шоколад молочный",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 116,
+        "fields": {
+            "name": "Белый шоколад",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 117,
+        "fields": {
+            "name": "Какаобобы",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 118,
+        "fields": {
+            "name": "Кофе молотый",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 119,
+        "fields": {
+            "name": "Кофе в зёрнах",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 120,
+        "fields": {
+            "name": "Чай чёрный",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 121,
+        "fields": {
+            "name": "Чай зелёный",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 122,
+        "fields": {
+            "name": "Молоко кокосовое",
+            "measurement_unit": "мл"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 123,
+        "fields": {
+            "name": "Молоко миндальное",
+            "measurement_unit": "мл"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 124,
+        "fields": {
+            "name": "Молоко ячменное",
+            "measurement_unit": "мл"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 125,
+        "fields": {
+            "name": "Сгущённое молоко",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 126,
+        "fields": {
+            "name": "Маргарин",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 127,
+        "fields": {
+            "name": "Растительное масло",
+            "measurement_unit": "мл"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 128,
+        "fields": {
+            "name": "Рыбий жир",
+            "measurement_unit": "мл"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 129,
+        "fields": {
+            "name": "Хлебные крошки",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 130,
+        "fields": {
+            "name": "Манная крупа",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 131,
+        "fields": {
+            "name": "Кукурузная мука",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 132,
+        "fields": {
+            "name": "Ржаная мука",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 133,
+        "fields": {
+            "name": "Крахмал картофельный",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 134,
+        "fields": {
+            "name": "Разрыхлитель",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 135,
+        "fields": {
+            "name": "Дрожжи сухие",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 136,
+        "fields": {
+            "name": "Дрожжи свежие",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 137,
+        "fields": {
+            "name": "Желатин",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 138,
+        "fields": {
+            "name": "Агар-агар",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 139,
+        "fields": {
+            "name": "Пектин",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 140,
+        "fields": {
+            "name": "Глазурь",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 141,
+        "fields": {
+            "name": "Сахарная пудра",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 142,
+        "fields": {
+            "name": "Коричневый сахар",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 143,
+        "fields": {
+            "name": "Сахар тростниковый",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 144,
+        "fields": {
+            "name": "Стевия",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 145,
+        "fields": {
+            "name": "Соус Терияки",
+            "measurement_unit": "мл"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 146,
+        "fields": {
+            "name": "Соус Барбекю",
+            "measurement_unit": "мл"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 147,
+        "fields": {
+            "name": "Сливочный соус",
+            "measurement_unit": "мл"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 148,
+        "fields": {
+            "name": "Гарнир",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 149,
+        "fields": {
+            "name": "Яйцо перепелиное",
+            "measurement_unit": "шт"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 150,
+        "fields": {
+            "name": "Белое вино",
+            "measurement_unit": "мл"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 151,
+        "fields": {
+            "name": "Красное вино",
+            "measurement_unit": "мл"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 152,
+        "fields": {
+            "name": "Пиво",
+            "measurement_unit": "мл"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 153,
+        "fields": {
+            "name": "Коньяк",
+            "measurement_unit": "мл"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 154,
+        "fields": {
+            "name": "Ром",
+            "measurement_unit": "мл"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 155,
+        "fields": {
+            "name": "Водка",
+            "measurement_unit": "мл"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 156,
+        "fields": {
+            "name": "Растительное масло нерафинированное",
+            "measurement_unit": "мл"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 157,
+        "fields": {
+            "name": "Масло виноградных косточек",
+            "measurement_unit": "мл"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 158,
+        "fields": {
+            "name": "Масло арахисовое",
+            "measurement_unit": "мл"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 159,
+        "fields": {
+            "name": "Масло кунжутное",
+            "measurement_unit": "мл"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 160,
+        "fields": {
+            "name": "Масло конопляное",
+            "measurement_unit": "мл"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 161,
+        "fields": {
+            "name": "Масло льняное",
+            "measurement_unit": "мл"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 162,
+        "fields": {
+            "name": "Масло авокадо",
+            "measurement_unit": "мл"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 163,
+        "fields": {
+            "name": "Сок апельсина",
+            "measurement_unit": "мл"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 164,
+        "fields": {
+            "name": "Сок лимона свежий",
+            "measurement_unit": "мл"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 165,
+        "fields": {
+            "name": "Сок граната",
+            "measurement_unit": "мл"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 166,
+        "fields": {
+            "name": "Сок томатный",
+            "measurement_unit": "мл"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 167,
+        "fields": {
+            "name": "Сок яблочный",
+            "measurement_unit": "мл"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 168,
+        "fields": {
+            "name": "Сок клюквы",
+            "measurement_unit": "мл"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 169,
+        "fields": {
+            "name": "Бульон куриный",
+            "measurement_unit": "мл"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 170,
+        "fields": {
+            "name": "Бульон говяжий",
+            "measurement_unit": "мл"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 171,
+        "fields": {
+            "name": "Бульон овощной",
+            "measurement_unit": "мл"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 172,
+        "fields": {
+            "name": "Бульон рыбный",
+            "measurement_unit": "мл"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 173,
+        "fields": {
+            "name": "Кубик бульона",
+            "measurement_unit": "шт"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 174,
+        "fields": {
+            "name": "Порошок бульона",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 175,
+        "fields": {
+            "name": "Оливки без косточки",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 176,
+        "fields": {
+            "name": "Каперсы",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 177,
+        "fields": {
+            "name": "Маслины",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 178,
+        "fields": {
+            "name": "Томаты в собственном соку",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 179,
+        "fields": {
+            "name": "Помидоры консервированные",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 180,
+        "fields": {
+            "name": "Кукуруза консервированная",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 181,
+        "fields": {
+            "name": "Горошек консервированный",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 182,
+        "fields": {
+            "name": "Фасоль консервированная",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 183,
+        "fields": {
+            "name": "Крабовое мясо",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 184,
+        "fields": {
+            "name": "Крабовые палочки",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 185,
+        "fields": {
+            "name": "Тунец консервированный",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 186,
+        "fields": {
+            "name": "Сёмга копчёная",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 187,
+        "fields": {
+            "name": "Икра красная",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 188,
+        "fields": {
+            "name": "Икра чёрная",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 189,
+        "fields": {
+            "name": "Крем-сыр",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 190,
+        "fields": {
+            "name": "Панир",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 191,
+        "fields": {
+            "name": "Тофу",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 192,
+        "fields": {
+            "name": "Темпе",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 193,
+        "fields": {
+            "name": "Сейтан",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 194,
+        "fields": {
+            "name": "Лапша удон",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 195,
+        "fields": {
+            "name": "Лапша рамен",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 196,
+        "fields": {
+            "name": "Лапша гречневая",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 197,
+        "fields": {
+            "name": "Лапша яичная",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 198,
+        "fields": {
+            "name": "Спагетти",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 199,
+        "fields": {
+            "name": "Пенне",
+            "measurement_unit": "г"
+        }
+    },
+    {
+        "model": "recipes.ingredient",
+        "pk": 200,
+        "fields": {
+            "name": "Фарфалле",
+            "measurement_unit": "г"
+        }
     }
 ]
