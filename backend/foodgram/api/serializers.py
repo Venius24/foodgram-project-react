@@ -12,7 +12,7 @@ from .pagination import DEFAULT_PAGE_SIZE
 
 class CustomUserSerializer(UserSerializer):
     is_subscribed = serializers.SerializerMethodField(read_only=True)
-    is_moderator = serializers.BooleanField(read_only=True, default=False)
+    is_moderator = serializers.SerializerMethodField(read_only=True)
 
     class Meta:
         model = User
@@ -38,6 +38,9 @@ class CustomUserSerializer(UserSerializer):
             return False
         return Follow.objects.filter(
             user=request.user, following=obj.id).exists()
+
+    def get_is_moderator(self, obj):
+        return obj.is_moderator or obj.is_staff or obj.is_superuser
 
     def create(self, validated_data):
         return User.objects.create_user(**validated_data)

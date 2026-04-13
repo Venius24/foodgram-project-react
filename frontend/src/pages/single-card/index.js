@@ -11,6 +11,8 @@ import MetaTags from 'react-meta-tags'
 import { useRecipe } from '../../utils/index.js'
 import api from '../../api'
 
+window.HALO = "Я ЖИВОЙ";
+
 const SingleCard = ({ loadItem, updateOrders }) => {
   const [loading, setLoading] = useState(true)
   const {
@@ -51,11 +53,7 @@ const SingleCard = ({ loadItem, updateOrders }) => {
     is_in_shopping_cart
   } = recipe
 
-  console.log('--- DEBUG MODERATOR ---')
-  console.log('UserContext:', userContext)
-  console.log('is_moderator value:', userContext?.is_moderator)
-  console.log('Condition check:', (userContext?.id === author.id || userContext?.is_moderator))
-  console.log('-----------------------')
+
 
   return <Main>
     <Container>
