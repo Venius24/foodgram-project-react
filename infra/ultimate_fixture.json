@@ -1,0 +1,2543 @@
+[
+{
+  "model": "sessions.session",
+  "pk": "p2z7vrbpt7yjs5o3d5izwo3t0rz4h6n2",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hBGZKAu3XuGBmYGqRpISrsy3l2bdKHb_977LzXGdSnj2mUeJ1Znherwu6VID6kb4Hust6ap1WWekt4UvdOur43ledndv4MSe_nWkhNY55LjACEYmxlwiIzgrUG03gC7QRzYEwFZEvAkxqccCYw_Aqr3B88XNzU:1wBqIX:I3buVh20u31N9b6wYEFX-ropCGpyV-LgxK_g_k-BVL8",
+    "expire_date": "2026-04-26T08:36:05.207Z"
+  }
+},
+{
+  "model": "users.user",
+  "fields": {
+    "password": "pbkdf2_sha256$720000$abcdefghijklmnop$qrstuvwxyzabcdefghijklmnopqrst=",
+    "last_login": "2024-04-12T10:30:00Z",
+    "is_superuser": false,
+    "username": "john_doe",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-01-15T08:00:00Z",
+    "email": "john.doe@example.com",
+    "first_name": "John",
+    "last_name": "Doe",
+    "is_moderator": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "fields": {
+    "password": "pbkdf2_sha256$720000$abcdefghijklmnop$qrstuvwxyzabcdefghijklmnopqrst=",
+    "last_login": "2024-04-11T15:45:00Z",
+    "is_superuser": false,
+    "username": "jane_smith",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-02-20T09:30:00Z",
+    "email": "jane.smith@example.com",
+    "first_name": "Jane",
+    "last_name": "Smith",
+    "is_moderator": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "fields": {
+    "password": "pbkdf2_sha256$720000$abcdefghijklmnop$qrstuvwxyzabcdefghijklmnopqrst=",
+    "last_login": "2024-04-10T12:00:00Z",
+    "is_superuser": false,
+    "username": "chef_ivan",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-01-01T00:00:00Z",
+    "email": "ivan.chef@example.com",
+    "first_name": "Ivan",
+    "last_name": "Petrov",
+    "is_moderator": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$k9qqSjMubWFhKbHmiATK01$Ns/aqWl3rgihWmRh8QlTM+FUYqp+ByS1ow+0127c4VU=",
+    "last_login": "2026-04-12T07:49:10.939Z",
+    "is_superuser": false,
+    "username": "aboba",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-04-12T07:48:59.140Z",
+    "email": "sorokin_danil_09@mail.ru",
+    "first_name": "Данил",
+    "last_name": "Сорокин",
+    "is_moderator": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$PYTbtPP4k6SfIgtCiEXmoa$vRtsmGsWbLlBw31hFePE99Oe5KKwPojQqLgLURzHRoU=",
+    "last_login": "2026-04-12T19:03:12.530Z",
+    "is_superuser": false,
+    "username": "abobus24",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-04-12T08:03:13.445Z",
+    "email": "abobus@mail.ru",
+    "first_name": "abobus",
+    "last_name": "abobus",
+    "is_moderator": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$eKQ7BpzmWxNYODUeyxKm61$VkOAFWN3GdF/AJifaUw6Tepd91NakN9E+rWMeUmpFiQ=",
+    "last_login": "2026-04-12T08:36:05.203Z",
+    "is_superuser": true,
+    "username": "venius",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-04-12T08:35:49.259Z",
+    "email": "WonderRebirth@mail.ru",
+    "first_name": "venius",
+    "last_name": "venius",
+    "is_moderator": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$yT1cuwbWfSPKKRGl4P5Kws$+HgOmFCfNTNfocjnWdEfxBOR5QlopzAeGLlajKj5LuY=",
+    "last_login": "2026-04-13T19:36:14.408Z",
+    "is_superuser": false,
+    "username": "moderator",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-04-12T19:01:02Z",
+    "email": "moder@gmail.com",
+    "first_name": "abobus_moderator",
+    "last_name": "abobus",
+    "is_moderator": true,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.follow",
+  "pk": 1,
+  "fields": {
+    "user": [
+      "john.doe@example.com"
+    ],
+    "following": [
+      "ivan.chef@example.com"
+    ]
+  }
+},
+{
+  "model": "users.follow",
+  "pk": 2,
+  "fields": {
+    "user": [
+      "jane.smith@example.com"
+    ],
+    "following": [
+      "ivan.chef@example.com"
+    ]
+  }
+},
+{
+  "model": "users.follow",
+  "pk": 3,
+  "fields": {
+    "user": [
+      "moder@gmail.com"
+    ],
+    "following": [
+      "ivan.chef@example.com"
+    ]
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 1,
+  "fields": {
+    "name": "Куриное филе",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 2,
+  "fields": {
+    "name": "Помидоры",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 3,
+  "fields": {
+    "name": "Огурцы",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 4,
+  "fields": {
+    "name": "Салат Айсберг",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 5,
+  "fields": {
+    "name": "Оливковое масло",
+    "measurement_unit": "мл"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 6,
+  "fields": {
+    "name": "Лимонный сок",
+    "measurement_unit": "мл"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 7,
+  "fields": {
+    "name": "Соль",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 8,
+  "fields": {
+    "name": "Чёрный перец",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 9,
+  "fields": {
+    "name": "Мука пшеничная",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 10,
+  "fields": {
+    "name": "Яйцо",
+    "measurement_unit": "шт"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 11,
+  "fields": {
+    "name": "Молоко",
+    "measurement_unit": "мл"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 12,
+  "fields": {
+    "name": "Сахар",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 13,
+  "fields": {
+    "name": "Ванилин",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 14,
+  "fields": {
+    "name": "Какао-порошок",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 15,
+  "fields": {
+    "name": "Сметана",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 16,
+  "fields": {
+    "name": "Масло сливочное",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 17,
+  "fields": {
+    "name": "Чеснок",
+    "measurement_unit": "зубчик"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 18,
+  "fields": {
+    "name": "Луковица",
+    "measurement_unit": "шт"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 19,
+  "fields": {
+    "name": "Паста томатная",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 20,
+  "fields": {
+    "name": "Макароны",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 21,
+  "fields": {
+    "name": "Говяжий фарш",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 22,
+  "fields": {
+    "name": "Свинина",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 23,
+  "fields": {
+    "name": "Рыба филе",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 24,
+  "fields": {
+    "name": "Морепродукты",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 25,
+  "fields": {
+    "name": "Креветки",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 26,
+  "fields": {
+    "name": "Кальмар",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 27,
+  "fields": {
+    "name": "Мидии",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 28,
+  "fields": {
+    "name": "Колбаса",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 29,
+  "fields": {
+    "name": "Бекон",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 30,
+  "fields": {
+    "name": "Ветчина",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 31,
+  "fields": {
+    "name": "Сыр Пармезан",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 32,
+  "fields": {
+    "name": "Сыр Моцарелла",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 33,
+  "fields": {
+    "name": "Сыр Фета",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 34,
+  "fields": {
+    "name": "Сыр Горгонзола",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 35,
+  "fields": {
+    "name": "Творог",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 36,
+  "fields": {
+    "name": "Йогурт",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 37,
+  "fields": {
+    "name": "Сливки",
+    "measurement_unit": "мл"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 38,
+  "fields": {
+    "name": "Кефир",
+    "measurement_unit": "мл"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 39,
+  "fields": {
+    "name": "Морковь",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 40,
+  "fields": {
+    "name": "Свёкла",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 41,
+  "fields": {
+    "name": "Картофель",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 42,
+  "fields": {
+    "name": "Капуста белокочанная",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 43,
+  "fields": {
+    "name": "Капуста цветная",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 44,
+  "fields": {
+    "name": "Брокколи",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 45,
+  "fields": {
+    "name": "Спаржа",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 46,
+  "fields": {
+    "name": "Сладкий перец",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 47,
+  "fields": {
+    "name": "Острый перец",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 48,
+  "fields": {
+    "name": "Шпинат",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 49,
+  "fields": {
+    "name": "Зелень петрушки",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 50,
+  "fields": {
+    "name": "Укроп",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 51,
+  "fields": {
+    "name": "Кинза",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 52,
+  "fields": {
+    "name": "Базилик",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 53,
+  "fields": {
+    "name": "Мята",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 54,
+  "fields": {
+    "name": "Орегано",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 55,
+  "fields": {
+    "name": "Тимьян",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 56,
+  "fields": {
+    "name": "Розмарин",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 57,
+  "fields": {
+    "name": "Гвоздика",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 58,
+  "fields": {
+    "name": "Корица",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 59,
+  "fields": {
+    "name": "Мускатный орех",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 60,
+  "fields": {
+    "name": "Кумин",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 61,
+  "fields": {
+    "name": "Паприка",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 62,
+  "fields": {
+    "name": "Куркума",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 63,
+  "fields": {
+    "name": "Имбирь",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 64,
+  "fields": {
+    "name": "Горчица",
+    "measurement_unit": "мл"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 65,
+  "fields": {
+    "name": "Майонез",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 66,
+  "fields": {
+    "name": "Кетчуп",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 67,
+  "fields": {
+    "name": "Соевый соус",
+    "measurement_unit": "мл"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 68,
+  "fields": {
+    "name": "Уксус яблочный",
+    "measurement_unit": "мл"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 69,
+  "fields": {
+    "name": "Уксус винный",
+    "measurement_unit": "мл"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 70,
+  "fields": {
+    "name": "Вустерский соус",
+    "measurement_unit": "мл"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 71,
+  "fields": {
+    "name": "Хрен",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 72,
+  "fields": {
+    "name": "Ваниль",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 73,
+  "fields": {
+    "name": "Апельсин",
+    "measurement_unit": "шт"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 74,
+  "fields": {
+    "name": "Лимон",
+    "measurement_unit": "шт"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 75,
+  "fields": {
+    "name": "Лайм",
+    "measurement_unit": "шт"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 76,
+  "fields": {
+    "name": "Клубника",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 77,
+  "fields": {
+    "name": "Черника",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 78,
+  "fields": {
+    "name": "Малина",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 79,
+  "fields": {
+    "name": "Вишня",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 80,
+  "fields": {
+    "name": "Яблоко",
+    "measurement_unit": "шт"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 81,
+  "fields": {
+    "name": "Груша",
+    "measurement_unit": "шт"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 82,
+  "fields": {
+    "name": "Банан",
+    "measurement_unit": "шт"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 83,
+  "fields": {
+    "name": "Ананас",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 84,
+  "fields": {
+    "name": "Манго",
+    "measurement_unit": "шт"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 85,
+  "fields": {
+    "name": "Киви",
+    "measurement_unit": "шт"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 86,
+  "fields": {
+    "name": "Гранат",
+    "measurement_unit": "шт"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 87,
+  "fields": {
+    "name": "Авокадо",
+    "measurement_unit": "шт"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 88,
+  "fields": {
+    "name": "Кокос",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 89,
+  "fields": {
+    "name": "Миндаль",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 90,
+  "fields": {
+    "name": "Арахис",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 91,
+  "fields": {
+    "name": "Грецкий орех",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 92,
+  "fields": {
+    "name": "Кешью",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 93,
+  "fields": {
+    "name": "Фисташки",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 94,
+  "fields": {
+    "name": "Кедровый орех",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 95,
+  "fields": {
+    "name": "Семена подсолнечника",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 96,
+  "fields": {
+    "name": "Семена тыквы",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 97,
+  "fields": {
+    "name": "Семена кунжута",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 98,
+  "fields": {
+    "name": "Семена льна",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 99,
+  "fields": {
+    "name": "Мёд",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 100,
+  "fields": {
+    "name": "Варенье",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 101,
+  "fields": {
+    "name": "Хлеб белый",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 102,
+  "fields": {
+    "name": "Хлеб чёрный",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 103,
+  "fields": {
+    "name": "Рис",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 104,
+  "fields": {
+    "name": "Гречка",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 105,
+  "fields": {
+    "name": "Овсяные хлопья",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 106,
+  "fields": {
+    "name": "Пшено",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 107,
+  "fields": {
+    "name": "Ячмень",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 108,
+  "fields": {
+    "name": "Чечевица",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 109,
+  "fields": {
+    "name": "Нут",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 110,
+  "fields": {
+    "name": "Фасоль",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 111,
+  "fields": {
+    "name": "Горох",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 112,
+  "fields": {
+    "name": "Кукуруза",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 113,
+  "fields": {
+    "name": "Какао-масло",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 114,
+  "fields": {
+    "name": "Шоколад чёрный",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 115,
+  "fields": {
+    "name": "Шоколад молочный",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 116,
+  "fields": {
+    "name": "Белый шоколад",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 117,
+  "fields": {
+    "name": "Какаобобы",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 118,
+  "fields": {
+    "name": "Кофе молотый",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 119,
+  "fields": {
+    "name": "Кофе в зёрнах",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 120,
+  "fields": {
+    "name": "Чай чёрный",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 121,
+  "fields": {
+    "name": "Чай зелёный",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 122,
+  "fields": {
+    "name": "Молоко кокосовое",
+    "measurement_unit": "мл"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 123,
+  "fields": {
+    "name": "Молоко миндальное",
+    "measurement_unit": "мл"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 124,
+  "fields": {
+    "name": "Молоко ячменное",
+    "measurement_unit": "мл"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 125,
+  "fields": {
+    "name": "Сгущённое молоко",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 126,
+  "fields": {
+    "name": "Маргарин",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 127,
+  "fields": {
+    "name": "Растительное масло",
+    "measurement_unit": "мл"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 128,
+  "fields": {
+    "name": "Рыбий жир",
+    "measurement_unit": "мл"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 129,
+  "fields": {
+    "name": "Хлебные крошки",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 130,
+  "fields": {
+    "name": "Манная крупа",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 131,
+  "fields": {
+    "name": "Кукурузная мука",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 132,
+  "fields": {
+    "name": "Ржаная мука",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 133,
+  "fields": {
+    "name": "Крахмал картофельный",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 134,
+  "fields": {
+    "name": "Разрыхлитель",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 135,
+  "fields": {
+    "name": "Дрожжи сухие",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 136,
+  "fields": {
+    "name": "Дрожжи свежие",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 137,
+  "fields": {
+    "name": "Желатин",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 138,
+  "fields": {
+    "name": "Агар-агар",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 139,
+  "fields": {
+    "name": "Пектин",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 140,
+  "fields": {
+    "name": "Глазурь",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 141,
+  "fields": {
+    "name": "Сахарная пудра",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 142,
+  "fields": {
+    "name": "Коричневый сахар",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 143,
+  "fields": {
+    "name": "Сахар тростниковый",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 144,
+  "fields": {
+    "name": "Стевия",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 145,
+  "fields": {
+    "name": "Соус Терияки",
+    "measurement_unit": "мл"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 146,
+  "fields": {
+    "name": "Соус Барбекю",
+    "measurement_unit": "мл"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 147,
+  "fields": {
+    "name": "Сливочный соус",
+    "measurement_unit": "мл"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 148,
+  "fields": {
+    "name": "Гарнир",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 149,
+  "fields": {
+    "name": "Яйцо перепелиное",
+    "measurement_unit": "шт"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 150,
+  "fields": {
+    "name": "Белое вино",
+    "measurement_unit": "мл"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 151,
+  "fields": {
+    "name": "Красное вино",
+    "measurement_unit": "мл"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 152,
+  "fields": {
+    "name": "Пиво",
+    "measurement_unit": "мл"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 153,
+  "fields": {
+    "name": "Коньяк",
+    "measurement_unit": "мл"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 154,
+  "fields": {
+    "name": "Ром",
+    "measurement_unit": "мл"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 155,
+  "fields": {
+    "name": "Водка",
+    "measurement_unit": "мл"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 156,
+  "fields": {
+    "name": "Растительное масло нерафинированное",
+    "measurement_unit": "мл"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 157,
+  "fields": {
+    "name": "Масло виноградных косточек",
+    "measurement_unit": "мл"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 158,
+  "fields": {
+    "name": "Масло арахисовое",
+    "measurement_unit": "мл"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 159,
+  "fields": {
+    "name": "Масло кунжутное",
+    "measurement_unit": "мл"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 160,
+  "fields": {
+    "name": "Масло конопляное",
+    "measurement_unit": "мл"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 161,
+  "fields": {
+    "name": "Масло льняное",
+    "measurement_unit": "мл"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 162,
+  "fields": {
+    "name": "Масло авокадо",
+    "measurement_unit": "мл"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 163,
+  "fields": {
+    "name": "Сок апельсина",
+    "measurement_unit": "мл"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 164,
+  "fields": {
+    "name": "Сок лимона свежий",
+    "measurement_unit": "мл"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 165,
+  "fields": {
+    "name": "Сок граната",
+    "measurement_unit": "мл"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 166,
+  "fields": {
+    "name": "Сок томатный",
+    "measurement_unit": "мл"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 167,
+  "fields": {
+    "name": "Сок яблочный",
+    "measurement_unit": "мл"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 168,
+  "fields": {
+    "name": "Сок клюквы",
+    "measurement_unit": "мл"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 169,
+  "fields": {
+    "name": "Бульон куриный",
+    "measurement_unit": "мл"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 170,
+  "fields": {
+    "name": "Бульон говяжий",
+    "measurement_unit": "мл"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 171,
+  "fields": {
+    "name": "Бульон овощной",
+    "measurement_unit": "мл"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 172,
+  "fields": {
+    "name": "Бульон рыбный",
+    "measurement_unit": "мл"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 173,
+  "fields": {
+    "name": "Кубик бульона",
+    "measurement_unit": "шт"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 174,
+  "fields": {
+    "name": "Порошок бульона",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 175,
+  "fields": {
+    "name": "Оливки без косточки",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 176,
+  "fields": {
+    "name": "Каперсы",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 177,
+  "fields": {
+    "name": "Маслины",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 178,
+  "fields": {
+    "name": "Томаты в собственном соку",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 179,
+  "fields": {
+    "name": "Помидоры консервированные",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 180,
+  "fields": {
+    "name": "Кукуруза консервированная",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 181,
+  "fields": {
+    "name": "Горошек консервированный",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 182,
+  "fields": {
+    "name": "Фасоль консервированная",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 183,
+  "fields": {
+    "name": "Крабовое мясо",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 184,
+  "fields": {
+    "name": "Крабовые палочки",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 185,
+  "fields": {
+    "name": "Тунец консервированный",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 186,
+  "fields": {
+    "name": "Сёмга копчёная",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 187,
+  "fields": {
+    "name": "Икра красная",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 188,
+  "fields": {
+    "name": "Икра чёрная",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 189,
+  "fields": {
+    "name": "Крем-сыр",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 190,
+  "fields": {
+    "name": "Панир",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 191,
+  "fields": {
+    "name": "Тофу",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 192,
+  "fields": {
+    "name": "Темпе",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 193,
+  "fields": {
+    "name": "Сейтан",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 194,
+  "fields": {
+    "name": "Лапша удон",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 195,
+  "fields": {
+    "name": "Лапша рамен",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 196,
+  "fields": {
+    "name": "Лапша гречневая",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 197,
+  "fields": {
+    "name": "Лапша яичная",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 198,
+  "fields": {
+    "name": "Спагетти",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 199,
+  "fields": {
+    "name": "Пенне",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.ingredient",
+  "pk": 200,
+  "fields": {
+    "name": "Фарфалле",
+    "measurement_unit": "г"
+  }
+},
+{
+  "model": "recipes.tag",
+  "pk": 1,
+  "fields": {
+    "name": "Завтрак",
+    "color": "#FF6B6B",
+    "slug": "zavtrak"
+  }
+},
+{
+  "model": "recipes.tag",
+  "pk": 2,
+  "fields": {
+    "name": "Обед",
+    "color": "#4ECDC4",
+    "slug": "obed"
+  }
+},
+{
+  "model": "recipes.tag",
+  "pk": 3,
+  "fields": {
+    "name": "Ужин",
+    "color": "#45B7D1",
+    "slug": "uzhin"
+  }
+},
+{
+  "model": "recipes.tag",
+  "pk": 4,
+  "fields": {
+    "name": "Десерт",
+    "color": "#FFA07A",
+    "slug": "desert"
+  }
+},
+{
+  "model": "recipes.recipe",
+  "pk": 1,
+  "fields": {
+    "author": [
+      "ivan.chef@example.com"
+    ],
+    "name": "Салат из помидоров и огурцов",
+    "image": "recipes/salad_1.jpg",
+    "text": "Простой и освежающий салат из свежих помидоров и огурцов с оливковым маслом. Идеален для летнего стола.",
+    "cooking_time": 10,
+    "pub_date": "2024-03-15T10:00:00Z"
+  }
+},
+{
+  "model": "recipes.recipe",
+  "pk": 2,
+  "fields": {
+    "author": [
+      "ivan.chef@example.com"
+    ],
+    "name": "Омлет из трёх яиц",
+    "image": "recipes/omlet_1.jpg",
+    "text": "Пушистый омлет на завтрак. Готовится за пять минут на горячей сковороде с маслом.",
+    "cooking_time": 5,
+    "pub_date": "2024-03-20T08:30:00Z"
+  }
+},
+{
+  "model": "recipes.recipe",
+  "pk": 3,
+  "fields": {
+    "author": [
+      "john.doe@example.com"
+    ],
+    "name": "Классическое печенье",
+    "image": "recipes/cookies_1.jpg",
+    "text": "Вкусное печенье из простых ингредиентов. Идеально подходит для чаепития с семьей.",
+    "cooking_time": 25,
+    "pub_date": "2024-04-01T14:20:00Z"
+  }
+},
+{
+  "model": "recipes.recipe",
+  "pk": 4,
+  "fields": {
+    "author": [
+      "john.doe@example.com"
+    ],
+    "name": "Куриный суп с лапшой",
+    "image": "recipes/chicken_soup.jpg",
+    "text": "Классический куриный суп с лапшой - идеальное блюдо для холодных дней. Теплый, сытный и домашний суп согреет вас в любой момент. Простой рецепт, но волшебный вкус!",
+    "cooking_time": 45,
+    "pub_date": "2023-12-20T11:15:00Z"
+  }
+},
+{
+  "model": "recipes.recipe",
+  "pk": 5,
+  "fields": {
+    "author": [
+      "john.doe@example.com"
+    ],
+    "name": "Овощное рагу",
+    "image": "recipes/vegetable_stew.jpg",
+    "text": "Ароматное овощное рагу с помидорами, баклажанами и перцем. Веганское блюдо, которое понравится всем! Готовится долго, но результат стоит того.",
+    "cooking_time": 60,
+    "pub_date": "2023-12-15T09:45:00Z"
+  }
+},
+{
+  "model": "recipes.recipe",
+  "pk": 6,
+  "fields": {
+    "author": [
+      "john.doe@example.com"
+    ],
+    "name": "Блинчики с ягодами",
+    "image": "recipes/pancakes.jpg",
+    "text": "Тонкие, нежные блинчики с ягодной начинкой. Отличный завтрак для всей семьи! Подаются со сметаной и свежими ягодами.",
+    "cooking_time": 30,
+    "pub_date": "2023-12-10T08:00:00Z"
+  }
+},
+{
+  "model": "recipes.recipe",
+  "pk": 7,
+  "fields": {
+    "author": [
+      "abobus@mail.ru"
+    ],
+    "name": "Рецептик от бога!",
+    "image": "recipes/04bdf7ba-7767-4744-800e-14784b1219c5.jpg",
+    "text": "Ванилин и луковица",
+    "cooking_time": 30,
+    "pub_date": "2026-04-12T17:48:46.517Z"
+  }
+},
+{
+  "model": "recipes.recipe",
+  "pk": 8,
+  "fields": {
+    "author": [
+      "moder@gmail.com"
+    ],
+    "name": "Сахарные дольки",
+    "image": "recipes/3db69ebf-0b92-47f0-9c35-fb2e8eb05f77.jpg",
+    "text": "Сахарные дольки - идеал вашего десерта",
+    "cooking_time": 180,
+    "pub_date": "2026-04-13T07:31:32.015Z"
+  }
+},
+{
+  "model": "recipes.recipetag",
+  "pk": 1,
+  "fields": {
+    "recipe": 1,
+    "tag": 2
+  }
+},
+{
+  "model": "recipes.recipetag",
+  "pk": 2,
+  "fields": {
+    "recipe": 2,
+    "tag": 1
+  }
+},
+{
+  "model": "recipes.recipetag",
+  "pk": 3,
+  "fields": {
+    "recipe": 3,
+    "tag": 4
+  }
+},
+{
+  "model": "recipes.recipetag",
+  "pk": 4,
+  "fields": {
+    "recipe": 2,
+    "tag": 2
+  }
+},
+{
+  "model": "recipes.recipetag",
+  "pk": 5,
+  "fields": {
+    "recipe": 3,
+    "tag": 4
+  }
+},
+{
+  "model": "recipes.recipetag",
+  "pk": 6,
+  "fields": {
+    "recipe": 3,
+    "tag": 2
+  }
+},
+{
+  "model": "recipes.recipetag",
+  "pk": 7,
+  "fields": {
+    "recipe": 4,
+    "tag": 1
+  }
+},
+{
+  "model": "recipes.recipetag",
+  "pk": 8,
+  "fields": {
+    "recipe": 4,
+    "tag": 2
+  }
+},
+{
+  "model": "recipes.recipetag",
+  "pk": 9,
+  "fields": {
+    "recipe": 5,
+    "tag": 3
+  }
+},
+{
+  "model": "recipes.recipetag",
+  "pk": 10,
+  "fields": {
+    "recipe": 6,
+    "tag": 4
+  }
+},
+{
+  "model": "recipes.recipetag",
+  "pk": 11,
+  "fields": {
+    "recipe": 6,
+    "tag": 2
+  }
+},
+{
+  "model": "recipes.recipetag",
+  "pk": 12,
+  "fields": {
+    "recipe": 7,
+    "tag": 1
+  }
+},
+{
+  "model": "recipes.recipetag",
+  "pk": 13,
+  "fields": {
+    "recipe": 7,
+    "tag": 2
+  }
+},
+{
+  "model": "recipes.recipetag",
+  "pk": 14,
+  "fields": {
+    "recipe": 7,
+    "tag": 3
+  }
+},
+{
+  "model": "recipes.recipetag",
+  "pk": 15,
+  "fields": {
+    "recipe": 7,
+    "tag": 4
+  }
+},
+{
+  "model": "recipes.recipetag",
+  "pk": 16,
+  "fields": {
+    "recipe": 8,
+    "tag": 4
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 1,
+  "fields": {
+    "recipe": 1,
+    "ingredient": 1,
+    "amount": 300
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 2,
+  "fields": {
+    "recipe": 1,
+    "ingredient": 2,
+    "amount": 2
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 3,
+  "fields": {
+    "recipe": 1,
+    "ingredient": 3,
+    "amount": 50
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 4,
+  "fields": {
+    "recipe": 2,
+    "ingredient": 5,
+    "amount": 3
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 5,
+  "fields": {
+    "recipe": 2,
+    "ingredient": 3,
+    "amount": 20
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 6,
+  "fields": {
+    "recipe": 3,
+    "ingredient": 4,
+    "amount": 250
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 7,
+  "fields": {
+    "recipe": 3,
+    "ingredient": 5,
+    "amount": 2
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 8,
+  "fields": {
+    "recipe": 3,
+    "ingredient": 6,
+    "amount": 150
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 9,
+  "fields": {
+    "recipe": 2,
+    "ingredient": 20,
+    "amount": 400
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 10,
+  "fields": {
+    "recipe": 2,
+    "ingredient": 10,
+    "amount": 4
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 11,
+  "fields": {
+    "recipe": 2,
+    "ingredient": 16,
+    "amount": 100
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 12,
+  "fields": {
+    "recipe": 2,
+    "ingredient": 7,
+    "amount": 10
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 13,
+  "fields": {
+    "recipe": 2,
+    "ingredient": 8,
+    "amount": 5
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 14,
+  "fields": {
+    "recipe": 3,
+    "ingredient": 9,
+    "amount": 300
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 15,
+  "fields": {
+    "recipe": 3,
+    "ingredient": 10,
+    "amount": 5
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 16,
+  "fields": {
+    "recipe": 3,
+    "ingredient": 12,
+    "amount": 250
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 17,
+  "fields": {
+    "recipe": 3,
+    "ingredient": 16,
+    "amount": 150
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 18,
+  "fields": {
+    "recipe": 3,
+    "ingredient": 14,
+    "amount": 50
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 19,
+  "fields": {
+    "recipe": 3,
+    "ingredient": 13,
+    "amount": 2
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 20,
+  "fields": {
+    "recipe": 4,
+    "ingredient": 1,
+    "amount": 500
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 21,
+  "fields": {
+    "recipe": 4,
+    "ingredient": 2,
+    "amount": 200
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 22,
+  "fields": {
+    "recipe": 4,
+    "ingredient": 18,
+    "amount": 1
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 23,
+  "fields": {
+    "recipe": 4,
+    "ingredient": 17,
+    "amount": 2
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 24,
+  "fields": {
+    "recipe": 4,
+    "ingredient": 20,
+    "amount": 100
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 25,
+  "fields": {
+    "recipe": 4,
+    "ingredient": 7,
+    "amount": 15
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 26,
+  "fields": {
+    "recipe": 4,
+    "ingredient": 8,
+    "amount": 5
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 27,
+  "fields": {
+    "recipe": 5,
+    "ingredient": 2,
+    "amount": 200
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 28,
+  "fields": {
+    "recipe": 5,
+    "ingredient": 18,
+    "amount": 1
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 29,
+  "fields": {
+    "recipe": 5,
+    "ingredient": 17,
+    "amount": 3
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 30,
+  "fields": {
+    "recipe": 5,
+    "ingredient": 5,
+    "amount": 50
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 31,
+  "fields": {
+    "recipe": 5,
+    "ingredient": 7,
+    "amount": 20
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 32,
+  "fields": {
+    "recipe": 5,
+    "ingredient": 8,
+    "amount": 8
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 33,
+  "fields": {
+    "recipe": 6,
+    "ingredient": 9,
+    "amount": 200
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 34,
+  "fields": {
+    "recipe": 6,
+    "ingredient": 10,
+    "amount": 3
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 35,
+  "fields": {
+    "recipe": 6,
+    "ingredient": 11,
+    "amount": 300
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 36,
+  "fields": {
+    "recipe": 6,
+    "ingredient": 12,
+    "amount": 50
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 37,
+  "fields": {
+    "recipe": 6,
+    "ingredient": 16,
+    "amount": 30
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 38,
+  "fields": {
+    "recipe": 6,
+    "ingredient": 15,
+    "amount": 100
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 39,
+  "fields": {
+    "recipe": 7,
+    "ingredient": 13,
+    "amount": 10
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 40,
+  "fields": {
+    "recipe": 7,
+    "ingredient": 18,
+    "amount": 2
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 41,
+  "fields": {
+    "recipe": 8,
+    "ingredient": 74,
+    "amount": 3
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 42,
+  "fields": {
+    "recipe": 8,
+    "ingredient": 138,
+    "amount": 40
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 43,
+  "fields": {
+    "recipe": 8,
+    "ingredient": 12,
+    "amount": 15
+  }
+},
+{
+  "model": "recipes.favorite",
+  "pk": 1,
+  "fields": {
+    "user": [
+      "john.doe@example.com"
+    ],
+    "recipe": 1
+  }
+},
+{
+  "model": "recipes.favorite",
+  "pk": 2,
+  "fields": {
+    "user": [
+      "john.doe@example.com"
+    ],
+    "recipe": 3
+  }
+},
+{
+  "model": "recipes.favorite",
+  "pk": 3,
+  "fields": {
+    "user": [
+      "jane.smith@example.com"
+    ],
+    "recipe": 2
+  }
+},
+{
+  "model": "recipes.favorite",
+  "pk": 4,
+  "fields": {
+    "user": [
+      "sorokin_danil_09@mail.ru"
+    ],
+    "recipe": 2
+  }
+},
+{
+  "model": "recipes.cart",
+  "pk": 1,
+  "fields": {
+    "user": [
+      "john.doe@example.com"
+    ],
+    "recipe": 2
+  }
+},
+{
+  "model": "recipes.cart",
+  "pk": 2,
+  "fields": {
+    "user": [
+      "jane.smith@example.com"
+    ],
+    "recipe": 1
+  }
+},
+{
+  "model": "recipes.cart",
+  "pk": 3,
+  "fields": {
+    "user": [
+      "jane.smith@example.com"
+    ],
+    "recipe": 3
+  }
+},
+{
+  "model": "recipes.cart",
+  "pk": 5,
+  "fields": {
+    "user": [
+      "moder@gmail.com"
+    ],
+    "recipe": 7
+  }
+},
+{
+  "model": "authtoken.token",
+  "pk": "abf5a31a8e9c23620763dc7083eb0bab3eb0f5d6",
+  "fields": {
+    "user": [
+      "moder@gmail.com"
+    ],
+    "created": "2026-04-13T19:36:14.401Z"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2026-04-12T19:02:46.975Z",
+    "user": [
+      "WonderRebirth@mail.ru"
+    ],
+    "content_type": [
+      "users",
+      "user"
+    ],
+    "object_id": "7",
+    "object_repr": "abobus_moderator abobus",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u0442\\u0430\\u0442\\u0443\\u0441 \\u043c\\u043e\\u0434\\u0435\\u0440\\u0430\\u0442\\u043e\\u0440\\u0430\"]}}]"
+  }
+}
+]
