@@ -1,30 +1,27 @@
+version: '3.8'
+
 services:
   db:
-    image: postgres:16.0-alpine
+    image: postgres:16-alpine
     volumes:
       - postgres_data:/var/lib/postgresql/data
-    env_file:
-      - .env
+    env_file: .env
 
   backend:
-    build: ../backend/
+    image: venius24/foodgram_backend:latest
     restart: always
-    volumes:
-      - static_value:/app/foodgram/static/
-      # Исправили путь: теперь он соответствует BASE_DIR/media/
-      - media_value:/app/foodgram/media/
-      - ../data/media/:/app/foodgram/media/
     depends_on:
       - db
-    env_file:
-      - .env
+    env_file: .env
+    volumes:
+      - static_value:/app/static/
+      - media_value:/app/media/
 
   frontend:
-    build:
-      context: ../frontend
-      dockerfile: Dockerfile
+    image: venius24/foodgram_frontend:latest
+    restart: always
     volumes:
-      - frontend_static:/app/build/
+      - frontend_static:/static/ # Путь внутри контейнера, где лежит билд
 
   nginx:
     image: nginx:1.19.3
@@ -35,8 +32,6 @@ services:
       - frontend_static:/usr/share/nginx/html/
       - static_value:/var/html/static/
       - media_value:/var/html/media/
-      - ../data/media/:/var/html/media/
-      - ../docs/:/usr/share/nginx/html/api/docs/
     depends_on:
       - backend
       - frontend
