@@ -61,11 +61,13 @@ class CustomUserViewSet(UserViewSet):
             serializer.is_valid(raise_exception=True)
             serializer.save()
             return Response(serializer.data, status=status.HTTP_201_CREATED)
-        try:
-            subscription = get_object_or_404(
-                Follow, user=request.user, following=followed_user)
-        except Http404:
-            raise ValidationError({'errors': 'Вы не подписаны'})
+        subscription = Follow.objects.filter(
+            user=request.user, following=followed_user)
+        if not subscription.exists():
+            return Response(
+                {'errors': 'Вы не подписаны'},
+                status=status.HTTP_400_BAD_REQUEST
+            )
         subscription.delete()
         return Response(
             f'Вы отписались от {followed_user}',
@@ -119,11 +121,13 @@ class RecipeViewSet(viewsets.ModelViewSet):
             serializer.is_valid(raise_exception=True)
             serializer.save()
             return Response(serializer.data, status=status.HTTP_201_CREATED)
-        try:
-            favorite = get_object_or_404(
-                Favorite, user=request.user, recipe=recipe)
-        except Http404:
-            raise ValidationError({'errors': 'Рецепта нет в избранном'})
+        favorite = Favorite.objects.filter(
+            user=request.user, recipe=recipe)
+        if not favorite.exists():
+            return Response(
+                {'errors': 'Рецепта нет в избранном'},
+                status=status.HTTP_400_BAD_REQUEST
+            )
         favorite.delete()
         return Response(
             'Рецепт удален из избранного',
@@ -145,13 +149,14 @@ class RecipeViewSet(viewsets.ModelViewSet):
             serializer.is_valid(raise_exception=True)
             serializer.save()
             return Response(serializer.data, status=status.HTTP_201_CREATED)
-        try:
-            favorite = get_object_or_404(
-                Cart, user=request.user, recipe=recipe)
-        except Http404:
-            raise ValidationError(
-                {'errors': 'Рецепта нет в списке покупок'})
-        favorite.delete()
+        cart = Cart.objects.filter(
+            user=request.user, recipe=recipe)
+        if not cart.exists():
+            return Response(
+                {'errors': 'Рецепта нет в списке покупок'},
+                status=status.HTTP_400_BAD_REQUEST
+            )
+        cart.delete()
         return Response(
             'Рецепт удален из списка покупок',
             status=status.HTTP_204_NO_CONTENT
@@ -160,7 +165,7 @@ class RecipeViewSet(viewsets.ModelViewSet):
     @action(
         methods=['get'],
         detail=False,
-        permission_classes=[IsAuthenticatedOrReadOnly]
+        permission_classes=[IsAuthenticated]
     )
     def download_shopping_cart(self, request):
         cart_ingredients = (

@@ -240,11 +240,53 @@ class CreateRecipeSerializer(serializers.ModelSerializer):
             )
         return data
 
+    def validate_ingredients(self, value):
+        if not value:
+            raise serializers.ValidationError(
+                'Необходимо добавить хотя бы один ингредиент.'
+            )
+        ingredients = [item['id'] for item in value]
+        if len(ingredients) != len(set(ingredients)):
+            raise serializers.ValidationError(
+                'Ингредиенты не должны повторяться.'
+            )
+        for item in value:
+            if int(item.get('amount', 0)) <= 0:
+                raise serializers.ValidationError(
+                    'Количество ингредиента должно быть больше нуля.'
+                )
+        return value
+
+    def validate_tags(self, value):
+        if not value:
+            raise serializers.ValidationError(
+                'Необходимо добавить хотя бы один тег.'
+            )
+        if len(value) != len(set(value)):
+            raise serializers.ValidationError(
+                'Теги не должны повторяться.'
+            )
+        return value
+
+    def validate_cooking_time(self, value):
+        if int(value) <= 0:
+            raise serializers.ValidationError(
+                'Время приготовления должно быть больше нуля.'
+            )
+        return value
+
 
 class FavoriteSerializer(serializers.ModelSerializer):
     class Meta:
         model = Favorite
         fields = ('user', 'recipe')
+        validators = (
+            serializers.UniqueTogetherValidator(
+                queryset=Favorite.objects.all(),
+                fields=('user', 'recipe'),
+                message='Рецепт уже добавлен в избранное'
+            ),
+        )
 
     def to_representation(self, instance):
         return SubRecipeSerializer(
@@ -257,6 +299,13 @@ class CartSerializer(serializers.ModelSerializer):
     class Meta:
         model = Cart
         fields = ('user', 'recipe')
+        validators = (
+            serializers.UniqueTogetherValidator(
+                queryset=Cart.objects.all(),
+                fields=('user', 'recipe'),
+                message='Рецепт уже добавлен в список покупок'
+            ),
+        )
 
     def to_representation(self, instance):
         return SubRecipeSerializer(
